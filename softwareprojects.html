@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content= "width = device-width, initial-scale = 1">
+  <title>Kylie Yamamoto | About Me</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.3.92/css/materialdesignicons.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+  <script> document.body.className += ' fade-out' </script>
+
+  <!---///////// HEADER /////////-->
+  <header>
+    <nav>
+      <!-- navigation bar -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><div class="dropdown">
+            <p>Projects</p>
+              <div class="dropdown-content">
+                <a href="softwareprojects.html">Software</a>
+                <a href="archprojects.html">Architectural</a>
+              </div>
+        </div></li>
+      </ul>
+    </nav>
+  </header>
+
+<!---///////// TITLE CONTAINER /////////-->
+<section class="projects-title">
+  <div class="container-border">
+    <h3>software projects</h3>
+  </div>
+</section>
+
+<!---///////// SOFTWARE PORTFOLIO /////////-->
+<section class="portfolio">
+
+  <!-- website button -->
+  <button type="button" class="btn" data-toggle="modal" data-target=".software-proj-website">
+    <div class="proj-cover">
+      <img src="img/softwareproj/website.jpg" alt="Avatar" class="image">
+      <div class="middle">
+        <!-- <h3>Building my website</h3> -->
+      </div>
+    </div>
+  </button>
+
+  <!-- website Modal -->
+  <div class="modal fade software-proj-website" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Web Development</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- body content -->
+          <p>
+            I built this website to teach myself web development skills. I created an online portfolio so that I can have a place to show my experiences while I searched for a job.  Thanks to watching youtube tutorials and reading through countless question and answer threads, I taught myself HTML, CSS, and Javascript to create this website. <br><br>
+            I am continuing to update my website as my skills as a web developer improve. Being self-taught I understand that there may be some flaws or inefficiencies in my code. Any critique for my website will be appreciated! You can find the code for my website on my github <a href="https://github.com/kylie-yamamoto/My-Website">here</a>.
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end website -->
+
+  <!-- misc button -->
+  <button type="button" class="btn" data-toggle="modal" data-target=".software-proj-misc">
+    <div class="proj-cover">
+      <img src="img/softwareproj/misc.jpg" alt="Avatar" class="image">
+      <div class="middle">
+        <!-- <h3>Misc Projects</h3> -->
+      </div>
+    </div>
+  </button>
+
+  <!-- misc Modal -->
+  <div class="modal fade software-proj-misc" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Miscellaneous projects</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- body content -->
+          <p>
+            Being new to the software development industry, I am researching different development areas to see what peaks my interest. I have a few personal projects that I am working on in my spare time to grow my skills as a developer. <br><br>
+            I am currently working on an android mobile app that will be used for habit and task tracking. This project is in the early stages of development as I am still learning how to use Android Studio while creating my application. Currently, I have finished the design and general layout of the app, now I am implementing the code. <br><br>
+            Additionally, I have some game ideas that I would like to work on as well. I have downloaded unity and began to experiment with the program. My game ideas are still just rough outlines, but I have some grand plans for them.<br><br>
+            Keep checking back on this website to see my progress!
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end misc -->
+
+</section>
+
+</body>
+
+
+<footer>
+    <p>© 2019 Kylie Yamamoto</p>
+</footer>
+
+<!-- BOOTSTRAP -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
