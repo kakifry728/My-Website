@@ -1,3 +1,5 @@
+alert(window.location.href);
+
 function $(id) {
   return document.getElementById(id);
 }
