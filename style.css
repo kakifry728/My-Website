@@ -523,7 +523,8 @@ nav a:focus{
   background-color: #333333;
   border-style: none;
   padding: 0;
-  margin: .5em 0;
+  width: 49%;
+  margin: 2px 0;
   border-radius: 0;
   display: inline-block;
 
@@ -595,11 +596,6 @@ nav a:focus{
   .projects-title{
     width: 80vw;
     margin: 2em;
-  }
-
-  .btn{
-    width: 49%;
-    margin: 2px 0;
   }
 
   .proj-slides{
