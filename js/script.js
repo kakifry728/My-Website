@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
-if(page === "index.html"){
+if(page === "index.html" || window.location.href === "kylieyamamoto.me"){
   window.addEventListener("load", quickLinkColor);
   window.addEventListener("resize", quickLinkColor);
 }
