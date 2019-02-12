@@ -1,5 +1,3 @@
-alert(window.location.href);
-
 function $(id) {
   return document.getElementById(id);
 }
@@ -16,7 +14,7 @@ window.addEventListener("load", function() {
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
-if(page === "index.html" || window.location.href === "kylieyamamoto.me"){
+if(page === "index.html" || window.location.href === "http://kylieyamamoto.me/"){
   window.addEventListener("load", quickLinkColor);
   window.addEventListener("resize", quickLinkColor);
 }
